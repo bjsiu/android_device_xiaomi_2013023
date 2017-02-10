@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Copy Kernel
 PRODUCT_COPY_FILES += \
-    device/gionee/m2/kernel:kernel 
+    device/xiaomi/2013023/kernel:kernel 
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_m2
-PRODUCT_DEVICE := m2
-PRODUCT_BRAND := gionee
-PRODUCT_MANUFACTURER := gionee
-PRODUCT_MODEL := m2
+PRODUCT_NAME := omni_2013023
+PRODUCT_DEVICE := 2013023
+PRODUCT_BRAND := xiaomi
+PRODUCT_MANUFACTURER := xiaomi
+PRODUCT_MODEL := 2013023
