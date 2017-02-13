@@ -12,8 +12,8 @@
 /protect_f          emmc                /dev/protect_f           flags=display="Protect_f";backup=1
 /protect_s          emmc                /dev/protect_s           flags=display="Protect_s";backup=1
 /recovery	    emmc		/dev/recovery            flags=display="Recovery";backup=1
-/system		    ext4		/dev/block/mmcblk0p6     flags=display="System";backup=1;wipeingui
-/cache		    ext4		/dev/cache     flags=display="Cache";backup=1;wipeingui;wipeduringfactoryreset
-/data		    ext4		/dev/usrdata     flags=display="Data";backup=1;wipeingui;wipeduringfactoryreset;length=-16384
-/sdcard1	    vfat		/dev/block/mmcblk0p9     flags=display="Phone Storage";storage;wipeingui;backup=0
-/sdcard0	    auto	        /dev/block/mmcblk1p1	 flags=display="Micro SDCard";storage;wipeingui;removable;backup=0
+/system		    ext4		/dev/block/mmcblk0p5     flags=display="System";backup=1;wipeingui
+/cache		    ext4		/dev/block/mmcblk0p6     flags=display="Cache";backup=1;wipeingui;wipeduringfactoryreset
+/data		    ext4		/dev/block/mmcblk0p7     flags=display="Data";backup=1;wipeingui;wipeduringfactoryreset;length=-16384
+/sdcard0	    vfat		/dev/block/mmcblk0p8     flags=display="Phone Storage";storage;wipeingui;backup=0
+/sdcard1	    auto	        /dev/block/mmcblk1p1	 flags=display="Micro SDCard";storage;wipeingui;removable;backup=0
