@@ -14,9 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/gionee/m2
+LOCAL_PATH := device/xiaomi/HM2013023
 
-ifeq ($(TARGET_DEVICE),m2)
+ifeq ($(TARGET_DEVICE),HM2013023)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
