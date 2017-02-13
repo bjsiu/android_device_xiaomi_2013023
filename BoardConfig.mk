@@ -38,7 +38,7 @@ BOARD_CUSTOM_BOOTIMG := true
 TARGET_PREBUILT_KERNEL := device/xiaomi/HM2013023/kernel
 TARGET_KMODULES := true
 BOARD_KERNEL_CMDLINE := 
-BOARD_MKBOOTIMG_ARGS := --base 0x10000000 --pagesize 2048 --kernel_offset 0x00008000 --second_offset 0x00f00000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
+BOARD_MKBOOTIMG_ARGS := --base 0x10000000 --pagesize 2048 --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 
 
 # Partitions & Image
