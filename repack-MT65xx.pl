@@ -60,7 +60,7 @@ die colored ("Error: $tool binary not found!", 'red') . "\n"
 if system ("command -v $tool >/dev/null 2>&1");
 }
 print "Repacking $type image...\nRamdisk size: ";
-system ("find . | cpio -o -H newc | gzip > $dir/ramdisk-repack.cpio.gz");
+system ("find . | cpio -o -H newc | gzip -9 > $dir/ramdisk-repack.cpio.gz");
 
 chdir $dir or die "\n$ramdiskdir $!";;
 
