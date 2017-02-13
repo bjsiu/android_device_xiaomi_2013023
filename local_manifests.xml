@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="gh" fetch="git://github.com/" />
+<project path="device/xiaomi/HM2013023" name="bjsiu/android_device_xiaomi_HM2013023" remote="gh" revision="twrp" />
+</manifest>
