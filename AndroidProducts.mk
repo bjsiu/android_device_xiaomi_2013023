@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    device/gionee/m2/omni_m2.mk 
+    device/xiaomi/HM2013023/omni_HM2013023.mk 
